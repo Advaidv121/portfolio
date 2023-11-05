@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charSet="utf-8"/>
+        <link rel="stylesheet" href="index.css" data-precedence="next"/>
+        <title>Advaid V</title>
+        <meta name="description" content="My Portfolio Website"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="icon" href="assets\webe.png" type="image/png" sizes="any"/>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"></div>
+        <div class="flex">
+            <aside class="hidden lg:flex h-screen fixed w-screen sm:w-[300px] z-30">
+                <div class="toggle flex flex-col lg:m-5 w-full">
+                    <div class="hidden lg:flex gap-2 p-5 pt-0">
+                        <div class="h-4 w-4 bg-btnHighlight rounded-full"></div>
+                        <div class="h-4 w-4 bg-btnHighlight rounded-full"></div>
+                    </div>
+                    <div class="flex relative flex-col h-full p-5 bg-cardPrimary text-primary rounded-lg w-full overflow-y-auto pb-20 md:pb-5">
+                        <div class="block lg:hidden p-5 z-10 text-primary absolute right-0 top-0 cursor-pointer text-2xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary">
+                                <path d="M18 6 6 18"></path>
+                                <path d="m6 6 12 12"></path>
+                            </svg>
+                        </div>
+                        <a class="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4" href="/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-home">
+                                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                            Home
+                        </a>
+                        <div class="mt-5">Details</div>
+                        <p class="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4" href="/">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" width="24" height="24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.344 12.168-1.4-1.4a1.98 1.98 0 0 0-2.8 0l-.7.7a1.98 1.98 0 0 1-2.8 0l-2.1-2.1a1.98 1.98 0 0 1 0-2.8l.7-.7a1.981 1.981 0 0 0 0-2.8l-1.4-1.4a1.828 1.828 0 0 0-2.8 0C-.638 5.323 1.1 9.542 4.78 13.22c3.68 3.678 7.9 5.418 11.564 1.752a1.828 1.828 0 0 0 0-2.804Z"/>
+                              </svg>
+                            +91 6282473426
+                        </p>
+                        <p class="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4" href="/">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" width="24" height="24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+                                <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+                                <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+                              </svg>
+                            advaidv@gmail.com
+                        </p>
+                        <p class="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4" href="https://www.instagram.com/_advaidv_x">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" width="24" height="24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 13A6 6 0 1 0 7 1a6 6 0 0 0 0 12Zm0 0v6M4.5 7A2.5 2.5 0 0 1 7 4.5"/>
+                              </svg>
+                            Kerala , India
+                        </p>
+                        <div class="mt-5">Socials</div>
+                        <a target="_blank" class="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4" href="https://www.instagram.com/_advaidv_x">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#b5179e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                            </svg>
+                            Instagram
+                        </a>
+                        <a target="_blank" class="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4" href="https://github.com/Advaidv121">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2a9d8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
+                                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                            </svg>
+                            Github
+                        </a>
+                        <a target="_blank" class="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4" href="https://www.linkedin.com/in/advaid-v-6788011b7/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0277b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect width="4" height="12" x="2" y="9"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                            Linkedin
+                        </a>
+                        <a target="_blank" class="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4" href="https://twitter.com/advaid_v">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#574ce6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+                            Twitter
+                        </a>
+                        <a target="_blank" class="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4" href="https://leetcode.com/advaidv121/">
+                            <svg width="24" height="24" viewBox="0 0 95 111" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-full w-auto max-w-none"><path d="M68.0063 83.0664C70.5 80.5764 74.5366 80.5829 77.0223 83.0809C79.508 85.579 79.5015 89.6226 77.0078 92.1127L65.9346 103.17C55.7187 113.371 39.06 113.519 28.6718 103.513C28.6117 103.456 23.9861 98.9201 8.72653 83.957C-1.42528 74.0029 -2.43665 58.0749 7.11648 47.8464L24.9282 28.7745C34.4095 18.6219 51.887 17.5122 62.7275 26.2789L78.9048 39.362C81.6444 41.5776 82.0723 45.5985 79.8606 48.3429C77.6488 51.0873 73.635 51.5159 70.8954 49.3003L54.7182 36.2173C49.0488 31.6325 39.1314 32.2622 34.2394 37.5006L16.4274 56.5727C11.7767 61.5522 12.2861 69.574 17.6456 74.8292C28.851 85.8169 37.4869 94.2846 37.4969 94.2942C42.8977 99.496 51.6304 99.4184 56.9331 94.1234L68.0063 83.0664Z" fill="#FFA116"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M41.1067 72.0014C37.5858 72.0014 34.7314 69.1421 34.7314 65.615C34.7314 62.0879 37.5858 59.2286 41.1067 59.2286H88.1245C91.6454 59.2286 94.4997 62.0879 94.4997 65.615C94.4997 69.1421 91.6454 72.0014 88.1245 72.0014H41.1067Z" fill="#B3B3B3"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M49.9118 2.02335C52.3173 -0.55232 56.3517 -0.686894 58.9228 1.72277C61.494 4.13244 61.6284 8.17385 59.2229 10.7495L16.4276 56.5729C11.7768 61.552 12.2861 69.5738 17.6453 74.8292L37.4088 94.2091C39.9249 96.6764 39.968 100.72 37.505 103.24C35.042 105.761 31.0056 105.804 28.4895 103.337L8.72593 83.9567C-1.42529 74.0021 -2.43665 58.0741 7.1169 47.8463L49.9118 2.02335Z" fill="black"></path></svg>
+                            Leetcode
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+            </aside>
+            <main class="flex-1 pl-0 lg:pl-[300px]">
+                <nav class="flex sticky shadow-md top-0 z-20 bg-body p-5 text-info justify-between">
+                    <div></div>
+                    <div class="flex items-center gap-5">
+                        <button disabled="" class="h-max w-max flex gap-2 justify-center items-center rounded-md outline-0 active:scale-95 active:shadow-inner disabled:opacity-50 disabled:pointer-events-none disbaled:cursor-not-allowed bg-btnHighlight text-highlight text-xs py-2 px-4">
+                            Contact Me 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user">
+                                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </button>
+                        <button type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex lg:hidden cursor-pointer hover:text-primary transition-colors">
+                                <line x1="4" x2="20" y1="12" y2="12"></line>
+                                <line x1="4" x2="20" y1="6" y2="6"></line>
+                                <line x1="4" x2="20" y1="18" y2="18"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </nav>
+                <div>
+                    <div class="container123">
+                        <div class="flex justify-center md:rounded-ld overflow-hidden md:px-10 py-5 bg-blur backdrop-filter backdrop-blur-md w-full gap-2 md:gap-10">
+                            <div class="">
+                                <img alt="Advaid V" loading="lazy" width="120" height="120" decoding="async" data-nimg="1" class="object-cover border-4 border-white rounded-full shadow-md" style="color:transparent" src="assets/advaid.png"/>
+
+                            </div>
+                            <div class="flex md:flex-1 flex-col justify-center gap-4">
+                                <div class="flex justify-between items-center gap-5 ">
+                                    <div class="text-3xl flex flex-col font-bold text-highlight">
+                                        Advaid V
+                                        <div class="text-sm font-thin flex justify-between items-center">
+                                            <a class="block md:hidden" target="_blank" href="https://instagram.com/_advaidv_x">
+                                                <button class="h-max w-max flex gap-2 justify-center items-center rounded-md outline-0 active:scale-95 active:shadow-inner disabled:opacity-50 disabled:pointer-events-none disbaled:cursor-not-allowed bg-cardPrimary text-primary font-semibold text-xs p-2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram">
+                                                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                                                    </svg>
+                                                </button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a class="hidden md:block" target="_blank" href="https://www.instagram.com/_advaidv_x">
+                                        <button class="h-max w-max flex gap-2 justify-center items-center rounded-md outline-0 active:scale-95 active:shadow-inner disabled:opacity-50 disabled:pointer-events-none disbaled:cursor-not-allowed bg-cardPrimary text-primary font-semibold text-xs py-2 px-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram">
+                                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                                            </svg>
+                                            <span class="hidden md:block">Follow me on Instagram</span>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-10 lg:px-10">
+                        <section class="grid gap-8 p-5 mt-5 md:p-0">
+                            <div class="text-xl font-medium text-zinc-200">Projects</div>
+                            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl::grid-cols-4 gap-5">
+                                <a target="_blank" href="https://github.com/Advaidv121/Backdoor-And-Server">
+                                    <div class="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
+                                        <img alt="spotify" loading="lazy" width="700" height="700" decoding="async" data-nimg="1" class="aspect-video object-cover" style="color:transparent" src="assets/back.webp"/>
+                                        <div class="flex flex-col px-4 py-2 h-24">
+                                            <div class="flex font-bold">Backdoor & Server</div>
+                                            <div class="flex text-info text-xs"><b>Pyton</b> : Socket, Puautogui, Subprocess, os</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a target="_blank" href="https://github.com/Advaidv121/Keylogger">
+                                    <div class="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
+                                        <img alt="spotify" loading="lazy" width="700" height="700" decoding="async" data-nimg="1" class="aspect-video object-cover" style="color:transparent" src="assets\1665803937233.png">
+                                        <div class="flex flex-col px-4 py-2 h-24">
+                                            <div class="flex font-bold">Keylogger</div>
+                                            <div class="flex text-info text-xs"><b>Pyton</b> : Socket, Puautogui, Subprocess, os</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a target="_blank" >
+                                    <div class="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
+                                        <img alt="spotify" loading="lazy" width="700" height="700" decoding="async" data-nimg="1" class="aspect-video object-cover" style="color:transparent" src="assets/Xcode.webp"/>    
+                                        <div class="flex flex-col px-4 py-2 h-24">
+                                            <div class="flex font-bold">IOS Application</div>
+                                            <div class="flex text-info text-xs"><b>Xcode</b> : Segue, Table View, Sliders, Steppers, Alertview </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a target="_blank" >
+                                    <div class="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
+                                        <img alt="spotify" loading="lazy" width="700" height="700" decoding="async" data-nimg="1" class="aspect-video object-cover" style="color:transparent" src="assets/nmt.jpg"/>
+                                        <div class="flex flex-col px-4 py-2 h-24">
+                                            <div class="flex font-bold">Network Monitoring Tool</div>
+                                            <div class="flex text-info text-xs"><b>Under Development!</b></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </section>
+                        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-5 mt-5 md:p-0">
+                            <div class="col-span-2 p-6 md:col-span-2 lg:col-span-3">
+                                <div class="text-xl font-medium mt-2 text-zinc-200 mb-5">What I know</div>
+                                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                                    <div class="flex-1 flex flex-col gap-4 bg-cardPrimary p-4 rounded-md shadow-lg">
+                                        <div class="text-primary font-medium text-lg tracking-wider">Languages</div>
+                                        <div class="flex flex-wrap gap-2">
+                                            <div class="rounded-md bg-body text-xs text-primary p-2">Java</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2">C++</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">Html</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-yellow-500/60">Javascript</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2">Python</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">Swift</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-black/60">Kotlin</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex-1 flex flex-col gap-4 bg-cardPrimary p-4 rounded-md shadow-lg">
+                                        <div class="text-primary font-medium text-lg tracking-wider">Automation</div>
+                                        <div class="flex flex-wrap gap-2">
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-green-500/60">Selenium</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">Automation Anywhere</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2">Blue Prism</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-yellow-500/60">UI Path</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex-1 flex flex-col gap-4 bg-cardPrimary p-4 rounded-md shadow-lg">
+                                        <div class="text-primary font-medium text-lg tracking-wider">Database</div>
+                                        <div class="flex flex-wrap gap-2">
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">MySql</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-emerald-500/60">MongoDB</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">PostgreSQL</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-red-500/60">Redis</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-yellow-500/60">Elastic Search</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex-1 flex flex-col gap-4 bg-cardPrimary p-4 rounded-md shadow-lg">
+                                        <div class="text-primary font-medium text-lg tracking-wider">Devops</div>
+                                        <div class="flex flex-wrap gap-2">
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">Docker</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">Kubernetes</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-orange-500/60">GIT</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2">Jenkins</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2">Vagrant</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-purple-500/60">Virtualization</div>
+                                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-yellow-500/60">AWS</div>
+                                        </div>
+                                    </div>
+                                </div>
+                               <br>
+                                <div class="flex-1 flex flex-col gap-4 bg-cardPrimary p-4 rounded-md shadow-lg">
+                                    <div class="text-primary font-medium text-lg tracking-wider"><b>Cyber Security</b></div>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">Web Penetration Testing</div>
+                                        <div class="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">System Penetration Testing</div>
+                                        <div class="rounded-md bg-body text-xs text-primary p-2 border border-orange-500/60">Encryption/Decryption</div>
+                                        <div class="rounded-md bg-body text-xs text-primary p-2 border border-yellow-500/60">Networking and System Administration</div>
+                                    </div>
+                                </div>
+                                <div class="flex-1 flex flex-col gap-4 bg-cardPrimary p-4 rounded-md shadow-lg">
+                                    <div class="text-primary font-medium text-lg tracking-wider"><b>Cyber Tools</b></div>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">Nmap</div>
+                                        <div class="rounded-md bg-body text-xs text-primary p-2 border border-yellow-500/60">Metasploit</div>
+                                        <div class="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">Zap</div>
+                                        <div class="rounded-md bg-body text-xs text-primary p-2 border border-orange-500/60">Burp Suite</div>
+                                        <div class="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">Nessus</div>
+                                        <div class="rounded-md bg-body text-xs text-primary p-2 border border-purple-500/60">Wireshark</div>
+                                        <div class="rounded-md bg-body text-xs text-primary p-2 border border-yellow-500/60">Qradar</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-5">
+                            <div class="grid bg-cardPrimary gap-6 p-4 shadow-lg">
+                                <div class="text-xl font-medium mt-2 text-zinc-200 ">Education</div>
+                                <div class="grid grid-cols-1 gap-4 rounded-lg">
+                                    <p target="_blank">
+                                        <div class="flex items-center gap-1 text-primary rounded-lg">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                                            <div class="flex flex-1 flex-col px-4 py-2">
+                                                <div class="flex text-sm font-medium">Lovely Professional University , Punjab</div>
+                                                <div class="flex text-info text-xs ">B. Tech Computer Science and Engineering (Hons) <b> 2020 2024</b></div>
+                                            </div>
+                                        </div>
+                                    </p>
+                                    <p target="_blank" href="https://github.com/nwaliaez/HardhatLottery">
+                                        <div class="flex items-center gap-1 text-primary rounded-lg">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-school"><path d="m4 6 8-4 8 4"/><path d="m18 10 4 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8l4-2"/><path d="M14 22v-4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v4"/><path d="M18 5v17"/><path d="M6 5v17"/><circle cx="12" cy="9" r="2"/></svg>
+                                            <div class="flex flex-1 flex-col px-4 py-2">
+                                                <div class="flex text-sm font-medium">Higher Secondary School </div>
+                                                <div class="flex text-info text-xs ">Sree Narayana Vidya Mandir Senior Secondary School , Kerala <b>   2018 2020</b></div>
+                                            </div>
+                                        </div>
+                                    </p>
+                                    <p target="_blank" href="https://github.com/nwaliaez/filetransfer-webrtc">
+                                        <div class="flex items-center gap-1 text-primary rounded-lg">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-school-2"><circle cx="12" cy="10" r="1"/><path d="M22 20V8h-4l-6-4-6 4H2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2Z"/><path d="M6 17v.01"/><path d="M6 13v.01"/><path d="M18 17v.01"/><path d="M18 13v.01"/><path d="M14 22v-5a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v5"/></svg>
+                                            <div class="flex flex-1 flex-col px-4 py-2">
+                                                <div class="flex text-sm font-medium">Secondary School </div>
+                                                <div class="flex text-info text-xs ">St. Francis English Medium School , Kerala <b>   2018 2020</b> </div>
+                                            </div>
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                            </section>
+                        </section>
+                        <section class="grid gap-5 p-5 md:p-0">
+                            <div class="text-xl font-bold text-highlight">Certifications</div>
+                            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
+                                <div class="flex flex-col gap-3">
+                                    <a target="_blank" href="/">
+                                        <div class="relative aspect-video rounded-lg overflow-hidden">
+                                            <img alt="Solidity" loading="lazy" decoding="async" data-nimg="fill" class="object-cover" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw"  src="assets/ceh.png">
+                                            <div class="progress-bar">
+                                                <div class="h-full bg-btnHighlight" style="width:100%"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="grid gap-2 px-2">
+                                        <div class="text-highlight font-bold">Certified Ethical Hacker&nbsp;<br>&nbsp; </div>
+                                        <div class="flex gap-2 md:gap-10">
+                                            <a target="_blank" class="flex items-center text-info text-xs gap-1" href="/">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open-text"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/><path d="M6 8h2"/><path d="M6 12h2"/><path d="M16 8h2"/><path d="M16 12h2"/></svg>
+                                                EC-Council
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col gap-3">
+                                    <a target="_blank" href="assets/file/Advaid V.pdf">
+                                        <div class="relative aspect-video rounded-lg overflow-hidden">
+                                            <img alt="Hardhat" loading="lazy" decoding="async" data-nimg="fill" class="object-cover" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" src="assets/ext.png">
+                                            <div class="progress-bar">
+                                                <div class="h-full bg-btnHighlight" style="width:100%"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="grid gap-2 px-2">
+                                        <div class="text-highlight font-bold">Advanced Data structure and Algorithm                 </div>
+                                        <div class="flex gap-2 md:gap-10">
+                                            <a  class="flex items-center text-info text-xs gap-1" href="/file/Advaid v.pdf">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open-text"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/><path d="M6 8h2"/><path d="M6 12h2"/><path d="M16 8h2"/><path d="M16 12h2"/></svg>
+                                                Extellon
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col gap-3">
+                                    <a target="_blank" href="/">
+                                        <div class="relative aspect-video rounded-lg overflow-hidden">
+                                            <img alt="Metamask" loading="lazy" decoding="async" data-nimg="fill" class="object-cover" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" src="assets\udemy1.png"/>
+                                            <div class="progress-bar">
+                                                <div class="h-full bg-btnHighlight" style="width:100%"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="grid gap-2 px-2">
+                                        <div class="text-highlight font-bold">Complete Ethical Hacking Bootcamp</div>
+                                        <div class="flex gap-2 md:gap-10">
+                                            <a target="_blank" class="flex items-center text-info text-xs gap-1" href="/">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open-text"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/><path d="M6 8h2"/><path d="M6 12h2"/><path d="M16 8h2"/><path d="M16 12h2"/></svg>
+                                                Udemy
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col gap-3">
+                                    <a target="_blank" href="/">
+                                        <div class="relative aspect-video rounded-lg overflow-hidden">
+                                            <img alt="Chainlink" loading="lazy" decoding="async" data-nimg="fill" class="object-cover" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" src="/assets/udemy2.png"/>
+                                            <div class="progress-bar">
+                                                <div class="h-full bg-btnHighlight" style="width:100%"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="grid gap-2 px-2">
+                                        <div class="text-highlight font-bold">Web Security & Bug Bounty&nbsp;<br>&nbsp;</div>
+                                        <div class="flex gap-2 md:gap-10">
+                                            <a target="_blank" class="flex items-center text-info text-xs gap-1" href="/">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open-text"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/><path d="M6 8h2"/><path d="M6 12h2"/><path d="M16 8h2"/><path d="M16 12h2"/></svg>
+                                                Udemy
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="flex flex-col gap-3">
+                                    <a target="_blank" href="/">
+                                        <div class="relative aspect-video rounded-lg overflow-hidden">
+                                            <img alt="OpenZeppelin" loading="lazy" decoding="async" data-nimg="fill" class="object-cover" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" srcSet="/_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2Ftech%2Fweb3%2Fopenzeppelin.png&amp;w=3840&amp;q=75"/>
+                                            <div class="progress-bar">
+                                                <div class="h-full bg-btnHighlight" style="width:70%"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="grid gap-2 px-2">
+                                        <div class="text-highlight font-bold">OpenZeppelin</div>
+                                        <div class="flex gap-2 md:gap-10">
+                                            <a target="_blank" class="flex items-center text-info text-xs gap-1" href="/">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code">
+                                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                                </svg>
+                                                1,128
+                                            </a>
+                                            <a target="_blank" class="flex items-center text-info text-xs gap-1" href="/">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-history">
+                                                    <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+                                                    <path d="M3 3v5h5"></path>
+                                                    <path d="M12 7v5l4 2"></path>
+                                                </svg>
+                                                1 day ago
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </section>
+                        <section class="grid gap-5 p-5 md:p-0">
+                            <div class="text-xl font-bold text-highlight">What I'm Exploring Now</div>
+                            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
+                                <div class="flex flex-col gap-3">
+                                    <a target="_blank" href="/">
+                                        <div class="relative aspect-video rounded-lg overflow-hidden">
+                                            <img alt="GraphQl" loading="lazy" decoding="async" data-nimg="fill" class="object-cover" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" src="assets/owasp.png"/>
+                                            <div class="progress-bar">
+                                                <div class="h-full bg-btnHighlight" style="width:90%"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="grid gap-2 px-2">
+                                        <div class="text-highlight font-bold">Owasp WSTG - v4.2</div>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col gap-3">
+                                    <a target="_blank" href="/">
+                                        <div class="relative aspect-video rounded-lg overflow-hidden">
+                                            <img alt="GraphQl" loading="lazy" decoding="async" data-nimg="fill" class="object-cover" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" src="assets/download.png"/>
+                                            <div class="progress-bar">
+                                                <div class="h-full bg-btnHighlight" style="width:30%"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="grid gap-2 px-2">
+                                        <div class="text-highlight font-bold">PortSwigger Web Security Academy & labs</div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="flex flex-col gap-3">
+                                    <a target="_blank" href="/">
+                                        <div class="relative aspect-video rounded-lg overflow-hidden">
+                                            <img alt="GraphQl" loading="lazy" decoding="async" data-nimg="fill" class="object-cover" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" src="assets/htb.png"/>
+                                            <div class="progress-bar">
+                                                <div class="h-full bg-btnHighlight" style="width:70%"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="grid gap-2 px-2">
+                                        <div class="text-highlight font-bold">GHack The Box</div>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
